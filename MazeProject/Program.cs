@@ -10,6 +10,10 @@ namespace MazeProject
     {
         static void Main(string[] args)
         {
+            MazeGame mazegame = new MazeGame();
+            MazeFactory factory = new MazeFactory();
+            mazegame.CreateMaze(factory);
+
         }
     }
 }

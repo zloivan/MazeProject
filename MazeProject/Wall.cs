@@ -13,4 +13,9 @@ namespace MazeProject
             Console.WriteLine("Wall");
         }
     }
+
+    public class BombedWall : Wall
+    {
+
+    }
 }
